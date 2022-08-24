@@ -1,0 +1,17 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.textContainer{
+    text-align: left;
+    width: 50%;
+
+}
+
+.formContainer{
+  
+    width: 30%;
+    padding: 10px;
+}
