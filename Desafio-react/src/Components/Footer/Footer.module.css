@@ -1,0 +1,26 @@
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background: gray;
+    margin-top: 40px;
+    width: 100%;
+    height: 150px;
+    transform: skewY(-3deg);
+}
+
+.footerContainer p {
+    transform: skewY(3deg);
+    color: #f1f1f1;
+    width: 200px;
+    line-height: normal;
+}
+
+.footerContainer footer{
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    overflow: hidden;
+    top:100%
+}

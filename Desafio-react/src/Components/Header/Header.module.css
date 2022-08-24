@@ -1,0 +1,11 @@
+.headerContainer{
+    height: 300px;
+    background-color:#707070 ;
+    transform: skewY(3deg);
+    overflow-y: hidden;
+    
+}
+
+.headerContent{
+    transform: skewY(-3deg);
+}

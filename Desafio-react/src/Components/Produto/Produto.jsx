@@ -1,11 +1,13 @@
 import React from 'react'
 import ButtonMenu from '../ButtonMenu/ButtonMenu'
+import produto from '../../assets/produto.jpg'
+import S from  './Produto.module.css'
 
 const Produto = ({nome, descricao, precoInicial, precoDesconto, parecelamento}) => {
   
   return (
     <div>
-      <img></img>
+      <img src={produto} alt='ilustração' className={S.imgproduto}/>
       <div>
         <h3>{nome}</h3>
         <p>{descricao}</p>
